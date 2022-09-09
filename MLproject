@@ -9,3 +9,5 @@ entry_points:
         paramaters:
             config:{type:str default:"configs/config.yaml"}
             command:"pythonsrc/stage_01_get_data.py --config={config}"
+    base_model_creation:
+    
